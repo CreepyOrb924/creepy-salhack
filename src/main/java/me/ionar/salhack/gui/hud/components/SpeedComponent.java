@@ -1,14 +1,16 @@
 package me.ionar.salhack.gui.hud.components;
 
-import java.text.DecimalFormat;
-
 import com.mojang.realmsclient.gui.ChatFormatting;
-
 import me.ionar.salhack.gui.hud.HudComponentItem;
+import me.ionar.salhack.managers.ModuleManager;
 import me.ionar.salhack.module.Value;
+import me.ionar.salhack.module.ui.HudModule;
 import me.ionar.salhack.util.Timer;
+import me.ionar.salhack.util.colors.SalRainbowUtil;
 import me.ionar.salhack.util.render.RenderUtil;
 import net.minecraft.util.math.MathHelper;
+
+import java.text.DecimalFormat;
 
 //I got lazy and took this from https://github.com/pleasegivesource/SalHackSkid.
 public class SpeedComponent extends HudComponentItem
@@ -34,6 +36,9 @@ public class SpeedComponent extends HudComponentItem
     private Timer timer = new Timer();
     private  String speed = "";
 
+    private HudModule l_Hud = (HudModule) ModuleManager.Get().GetMod(HudModule.class);
+    private SalRainbowUtil Rainbow = new SalRainbowUtil(9);
+    private int l_I = 0;
 
     @Override
     public void render(int p_MouseX, int p_MouseY, float p_PartialTicks)
@@ -59,20 +64,21 @@ public class SpeedComponent extends HudComponentItem
             String l_FormatterBPS = FormatterBPS.format(l_BPS);
 
             //TODO Change BPS to m/s? 1 minecraft block is 1 real life metre iirc.
-            speed = ChatFormatting.GRAY + "Speed: " + ChatFormatting.WHITE + l_FormatterBPS + " BPS";
+            speed = l_Hud.Rainbow.getValue() ? "Speed: " + l_FormatterBPS + " BPS" : ChatFormatting.GRAY + "Speed: " + ChatFormatting.WHITE + l_FormatterBPS + " BPS";
 
         }
         else if (SpeedUnit.getValue() == UnitList.KMH)
         {
             String l_FormatterKMH = FormatterKMH.format(l_KMH);
 
-            speed = ChatFormatting.GRAY + "Speed " + ChatFormatting.WHITE + l_FormatterKMH + "km/h";
+            speed = l_Hud.Rainbow.getValue() ? "Speed " + l_FormatterKMH + "km/h" : ChatFormatting.GRAY + "Speed " + ChatFormatting.WHITE + l_FormatterKMH + "km/h";
 
         }
 
         SetWidth(RenderUtil.getStringWidth(speed));
         SetHeight(RenderUtil.getStringHeight(speed)+1);
 
-        RenderUtil.drawStringWithShadow(speed, GetX(), GetY(), -1);
+        Rainbow.OnRender();
+        RenderUtil.drawStringWithShadow(speed, GetX(), GetY(), l_Hud.Rainbow.getValue() ? Rainbow.GetRainbowColorAt(Rainbow.getRainbowColorNumber(l_I)) : -1);
     }
 }
