@@ -53,8 +53,6 @@ minecraft {
     replace '${mcversion}', project.minecraft.version
     replace '${modVersion}', project.modVersion
     replace '${version_minecraft}', project.version_minecraft
-    replace '${version_lunatriuscore}', project.version_lunatriuscore
-    replace '${version_schematica}', project.version_schematica
     replace '${forgeVersion}', project.forgeVersion
 }
 
@@ -94,7 +92,6 @@ dependencies {
     }
     compile 'club.minnced:java-discord-rpc:2.0.2'
     
-    //deobfCompile group: group, name: 'LunatriusCore', version: "${project.version_minecraft}-${project.version_lunatriuscore}", classifier: 'universal'
 }
 
 processResources {
@@ -111,8 +108,6 @@ processResources {
         'mcversion': project.minecraft.version,
         'modVersion': project.modVersion,
         'version_minecraft': project.version_minecraft,
-        'version_lunatriuscore': project.version_lunatriuscore,
-        'version_schematica': project.version_schematica,
         'forgeVersion': project.forgeVersion
 
     }
@@ -185,7 +180,6 @@ if (project.hasProperty('api_key_curseforge') && project.hasProperty('extra_curs
             addArtifact apiJar
 
             relations {
-                requiredLibrary 'lunatriuscore'
             }
         }
     }
