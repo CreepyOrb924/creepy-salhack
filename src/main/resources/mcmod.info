@@ -1,13 +1,13 @@
 [
     {
-      "modid": "salhack",
-      "name": "SalHack",
-      "description": "SalHack utility mod.",
+      "modid": "jiyuhack",
+      "name": "JiyuHack",
+      "description": "SalHack forked by Jiyu.",
       "version": "${modVersion}",
       "mcversion": "${version_minecraft}",
       "url": "https://salhack.com",
       "updateUrl": "https://salhack.com",
-      "authorList": ["ionar"],
+      "authorList": ["ionar, jiyu"],
       "credits": "ionar",
       "logoFile": "assets/salhack/imgs/SalHackWatermark.png",
       "screenshots": [],
