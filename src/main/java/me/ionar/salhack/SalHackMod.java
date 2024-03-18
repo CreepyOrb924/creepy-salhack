@@ -11,7 +11,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.opengl.Display;
 
-@Mod(modid = "creepy-salhack", name = "Creepy SalHack", version = SalHackMod.VERSION)
+@Mod(modid = "creepy-jiyuhack", name = "Creepy JiyuHack", version = SalHackMod.VERSION)
 public final class SalHackMod {
     public static final String NAME = "Creepy SalHack";
     public static final String VERSION = "2.8.2";
