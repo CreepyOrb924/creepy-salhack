@@ -1,0 +1,49 @@
+plugins {
+    id 'fabric-loom' version '1.6.12'
+    id 'maven-publish'
+}
+version = '2.08.2-port.4-render'
+group = 'me.ionar.salhack'
+base { archivesName = 'CreepySalHack-1.20.4' }
+repositories { mavenCentral() }
+dependencies {
+    compileOnly 'io.github.llamalad7:mixinextras-fabric:0.3.5'
+    annotationProcessor 'io.github.llamalad7:mixinextras-fabric:0.3.5'
+    minecraft 'com.mojang:minecraft:1.20.4'
+    mappings 'net.fabricmc:yarn:1.20.4+build.3:v2'
+    modImplementation 'net.fabricmc:fabric-loader:0.15.11'
+    modImplementation 'net.fabricmc.fabric-api:fabric-api:0.97.2+1.20.4'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+java { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17; withSourcesJar() }
+tasks.withType(JavaCompile).configureEach { options.release = 17; options.encoding = 'UTF-8' }
+test { useJUnitPlatform() }
+processResources { inputs.property 'version', project.version; filesMatching('fabric.mod.json') { expand version: project.version } }
+jar { from('LICENSE') }
+sourceSets {
+    qa {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += output + compileClasspath + sourceSets.main.runtimeClasspath
+    }
+}
+loom {
+    mods {
+        creepysalhack { sourceSet sourceSets.main }
+        salhackqa { sourceSet sourceSets.qa }
+    }
+    runs {
+        qaClient {
+            client()
+            source sourceSets.qa
+            runDir 'run-qa-render4'
+            vmArg '-Xmx1536m'
+            programArgs '--width', '1280', '--height', '720', '--username', 'SalHackQA'
+        }
+    }
+}
+tasks.register('releaseJar', Copy) {
+    dependsOn remapJar
+    from remapJar.archiveFile
+    into 'build/release'
+    rename { 'CreepySalHack-1.20.4.jar' }
+}

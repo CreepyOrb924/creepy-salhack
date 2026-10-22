@@ -1,0 +1,1187 @@
+{
+  "file": "ingrosware-v4.0.jar",
+  "sha256": "078622b4bdc9a11f4a32dadce2263bca8d00bc37999147bb0027faeb8f13c44f",
+  "classes": 800,
+  "native_or_embedded": [],
+  "urls": [
+    {
+      "class": "best/reich/ingros/util/thealtening/TheAltening.class",
+      "constant": "http://api.thealtening.com/v1/"
+    }
+  ],
+  "security_references": [
+    {
+      "class": "best/reich/ingros/util/ClassUtil.class",
+      "constant": "java/net/URL"
+    },
+    {
+      "class": "best/reich/ingros/util/ClassUtil.class",
+      "constant": "()Ljava/net/URI;"
+    },
+    {
+      "class": "best/reich/ingros/util/ClassUtil.class",
+      "constant": "java/net/URI"
+    },
+    {
+      "class": "best/reich/ingros/util/ClassUtil.class",
+      "constant": "()Ljava/net/URL;"
+    },
+    {
+      "class": "best/reich/ingros/util/ClassUtil.class",
+      "constant": "java/net/URLClassLoader"
+    },
+    {
+      "class": "best/reich/ingros/util/ClassUtil.class",
+      "constant": "([Ljava/net/URL;Ljava/lang/ClassLoader;)Ljava/net/URLClassLoader;"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "minecraftSession"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "(Ljava/lang/String;)Ljava/net/URL;"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "(Ljava/lang/String;Ljava/net/URL;)V"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "://sessionserver."
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": ".com/session/minecraft/"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": ".com/session/minecraft/join"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": ".com/session/minecraft/hasJoined"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "Ljava/util/HashMap<Ljava/lang/String;Ljava/net/URL;>;"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "java/net/MalformedURLException"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "java/net/URL"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "Ljava/net/MalformedURLException;"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/AltService.class",
+      "constant": "Ljava/net/URL;"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/TheAltening.class",
+      "constant": "java/net/URL"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/TheAltening.class",
+      "constant": "()Ljava/net/URLConnection;"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/TheAltening.class",
+      "constant": "java/net/URLConnection"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/TheAltening.class",
+      "constant": "Ljava/net/URLConnection;"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/utilities/ReflectionUtility.class",
+      "constant": "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/utilities/ReflectionUtility.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/utilities/ReflectionUtility.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/utilities/SSLVerification.class",
+      "constant": "(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/utilities/SSLVerification.class",
+      "constant": "sessionserver.thealtening.com"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/utilities/SSLVerification.class",
+      "constant": "sslSession"
+    },
+    {
+      "class": "best/reich/ingros/util/thealtening/utilities/SSLVerification.class",
+      "constant": "Ljavax/net/ssl/SSLSession;"
+    },
+    {
+      "class": "best/reich/ingros/manager/MacroManager.class",
+      "constant": "()Ljava/lang/reflect/Type;"
+    },
+    {
+      "class": "best/reich/ingros/manager/MacroManager.class",
+      "constant": "(Ljava/io/Reader;Ljava/lang/reflect/Type;)Ljava/lang/Object;"
+    },
+    {
+      "class": "best/reich/ingros/manager/ModuleManager.class",
+      "constant": "(Ljava/lang/String;)Ljava/net/URL;"
+    },
+    {
+      "class": "best/reich/ingros/manager/ModuleManager.class",
+      "constant": "java/net/URL"
+    },
+    {
+      "class": "best/reich/ingros/manager/FriendManager.class",
+      "constant": "()Ljava/lang/reflect/Type;"
+    },
+    {
+      "class": "best/reich/ingros/manager/FriendManager.class",
+      "constant": "(Ljava/io/Reader;Ljava/lang/reflect/Type;)Ljava/lang/Object;"
+    },
+    {
+      "class": "best/reich/ingros/commands/AltCommand.class",
+      "constant": "createSession"
+    },
+    {
+      "class": "best/reich/ingros/commands/AltCommand.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/Session;"
+    },
+    {
+      "class": "best/reich/ingros/commands/AltCommand.class",
+      "constant": "java/net/Proxy"
+    },
+    {
+      "class": "best/reich/ingros/commands/AltCommand.class",
+      "constant": "Ljava/net/Proxy;"
+    },
+    {
+      "class": "best/reich/ingros/commands/AltCommand.class",
+      "constant": "(Ljava/net/Proxy;Ljava/lang/String;)V"
+    },
+    {
+      "class": "best/reich/ingros/commands/AltCommand.class",
+      "constant": "net/minecraft/util/Session"
+    },
+    {
+      "class": "best/reich/ingros/commands/AltCommand.class",
+      "constant": "setSession"
+    },
+    {
+      "class": "best/reich/ingros/commands/AltCommand.class",
+      "constant": "(Lnet/minecraft/util/Session;)V"
+    },
+    {
+      "class": "best/reich/ingros/commands/AltCommand.class",
+      "constant": "Lnet/minecraft/util/Session;"
+    },
+    {
+      "class": "best/reich/ingros/mixin/accessors/IMinecraft.class",
+      "constant": "setSession"
+    },
+    {
+      "class": "best/reich/ingros/mixin/accessors/IMinecraft.class",
+      "constant": "(Lnet/minecraft/util/Session;)V"
+    },
+    {
+      "class": "best/reich/ingros/mixin/impl/MixinMinecraft.class",
+      "constant": "setSession"
+    },
+    {
+      "class": "best/reich/ingros/mixin/impl/MixinMinecraft.class",
+      "constant": "(Lnet/minecraft/util/Session;)V"
+    },
+    {
+      "class": "best/reich/ingros/IngrosWare.class",
+      "constant": "java/lang/ReflectiveOperationException"
+    },
+    {
+      "class": "net/b0at/api/event/exceptions/ListenerAlreadyRegisteredException.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "net/b0at/api/event/exceptions/ListenerNotAlreadyRegisteredException.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulator.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulator.class",
+      "constant": "(Ljava/lang/Object;Ljava/lang/reflect/Method;ILnet/b0at/api/event/types/EventPriority;Ljava/util/NavigableSet;)V"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulator.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulator.class",
+      "constant": "()[Ljava/lang/reflect/Parameter;"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulator.class",
+      "constant": "java/lang/reflect/Parameter"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulator.class",
+      "constant": "(Ljava/lang/Object;Ljava/lang/reflect/Method;ILnet/b0at/api/event/types/EventPriority;Ljava/util/NavigableSet<Lnet/b0at/api/event/cache/HandlerEncapsulator<TT;>;>;)V"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulatorWithTiming.class",
+      "constant": "(Ljava/lang/Object;Ljava/lang/reflect/Method;ILnet/b0at/api/event/types/EventPriority;Ljava/util/NavigableSet;Ljava/util/NavigableSet;)V"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulatorWithTiming.class",
+      "constant": "(Ljava/lang/Object;Ljava/lang/reflect/Method;ILnet/b0at/api/event/types/EventPriority;Ljava/util/NavigableSet;)V"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulatorWithTiming.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulatorWithTiming.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulatorWithTiming.class",
+      "constant": "()[Ljava/lang/reflect/Parameter;"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulatorWithTiming.class",
+      "constant": "java/lang/reflect/Parameter"
+    },
+    {
+      "class": "net/b0at/api/event/cache/HandlerEncapsulatorWithTiming.class",
+      "constant": "(Ljava/lang/Object;Ljava/lang/reflect/Method;ILnet/b0at/api/event/types/EventPriority;Ljava/util/NavigableSet<Lnet/b0at/api/event/cache/HandlerEncapsulator<TT;>;>;Ljava/util/NavigableSet<Lnet/b0at/api/event/cache/HandlerEncapsulator<TT;>;>;"
+    },
+    {
+      "class": "net/b0at/api/event/EventManager.class",
+      "constant": "()[Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "net/b0at/api/event/EventManager.class",
+      "constant": "[Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "net/b0at/api/event/EventManager.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "net/b0at/api/event/EventManager.class",
+      "constant": "(Ljava/lang/Object;Ljava/lang/reflect/Method;ILnet/b0at/api/event/types/EventPriority;Ljava/util/NavigableSet;Ljava/util/NavigableSet;)V"
+    },
+    {
+      "class": "net/b0at/api/event/EventManager.class",
+      "constant": "(Ljava/lang/Object;Ljava/lang/reflect/Method;ILnet/b0at/api/event/types/EventPriority;Ljava/util/NavigableSet;)V"
+    },
+    {
+      "class": "net/b0at/api/event/EventManager.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/AbstractSetting.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/AbstractSetting.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/AbstractSetting.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/SettingManager.class",
+      "constant": "()[Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/SettingManager.class",
+      "constant": "[Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/SettingManager.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/SettingManager.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/SettingManager.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;[Ljava/lang/String;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/SettingManager.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/SettingManager.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/ColorSetting.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/ColorSetting.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/BooleanSetting.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/BooleanSetting.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/NumberSetting.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/NumberSetting.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/NumberSetting.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/NumberSetting.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/NumberSetting.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;TT;TT;TT;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/ModeStringSetting.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;[Ljava/lang/String;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/ModeStringSetting.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/ModeStringSetting.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/StringSetting.class",
+      "constant": "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/reflect/Field;)V"
+    },
+    {
+      "class": "me/xenforu/kelo/setting/impl/StringSetting.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MainAttributes.class",
+      "constant": "Ljava/util/Map<Ljava/net/URI;Lorg/spongepowered/asm/launch/platform/MainAttributes;>;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MainAttributes.class",
+      "constant": "()Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MainAttributes.class",
+      "constant": "(Ljava/net/URI;)Lorg/spongepowered/asm/launch/platform/MainAttributes;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MainAttributes.class",
+      "constant": "(Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MainAttributes.class",
+      "constant": "Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinContainer.class",
+      "constant": "Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinContainer.class",
+      "constant": "(Lorg/spongepowered/asm/launch/platform/MixinPlatformManager;Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinContainer.class",
+      "constant": "java/net/URI"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinContainer.class",
+      "constant": "([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinContainer.class",
+      "constant": "java/lang/reflect/Constructor"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinContainer.class",
+      "constant": "Ljava/lang/reflect/Constructor<Lorg/spongepowered/asm/launch/platform/IMixinPlatformAgent;>;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinContainer.class",
+      "constant": "Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinContainer.class",
+      "constant": "()Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentAbstract.class",
+      "constant": "Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentAbstract.class",
+      "constant": "(Lorg/spongepowered/asm/launch/platform/MixinPlatformManager;Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentAbstract.class",
+      "constant": "(Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentAbstract.class",
+      "constant": "java/net/URI"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentAbstract.class",
+      "constant": "(Ljava/net/URI;)Lorg/spongepowered/asm/launch/platform/MainAttributes;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentDefault.class",
+      "constant": "(Lorg/spongepowered/asm/launch/platform/MixinPlatformManager;Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentDefault.class",
+      "constant": "Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "Ljava/util/Map<Ljava/net/URI;Lorg/spongepowered/asm/launch/platform/MixinContainer;>;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "java/net/URISyntaxException"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "()Ljava/net/URL;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "java/net/URL"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "()Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "(Ljava/net/URI;)Lorg/spongepowered/asm/launch/platform/MixinContainer;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "java/net/URI"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "Ljava/net/URISyntaxException;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "(Lorg/spongepowered/asm/launch/platform/MixinPlatformManager;Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "()[Ljava/net/URL;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "[Ljava/net/URL;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "(Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "(Ljava/net/URI;)Lorg/spongepowered/asm/launch/platform/MainAttributes;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformManager.class",
+      "constant": "Ljava/net/URL;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/injection/callback/CancellationException.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/injection/InjectionPoint$Intersection.class",
+      "constant": "java/lang/reflect/Array"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/injection/InjectionPoint.class",
+      "constant": "([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/injection/InjectionPoint.class",
+      "constant": "java/lang/reflect/Constructor"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/injection/InjectionPoint.class",
+      "constant": "Ljava/lang/reflect/Constructor<+Lorg/spongepowered/asm/mixin/injection/InjectionPoint;>;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/injection/InjectionPoint.class",
+      "constant": "Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/MixinEnvironment.class",
+      "constant": "()Ljava/net/URL;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/MixinEnvironment.class",
+      "constant": "java/net/URL"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/throwables/MixinException.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckClass.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckClass.class",
+      "constant": "Ljava/lang/RuntimeException;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionClassExporter.class",
+      "constant": "([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionClassExporter.class",
+      "constant": "java/lang/reflect/Constructor"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionClassExporter.class",
+      "constant": "Ljava/lang/reflect/Constructor<+Lorg/spongepowered/asm/mixin/transformer/ext/IDecompiler;>;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionClassExporter.class",
+      "constant": "Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinApplicatorStandard.class",
+      "constant": "sessionId"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinApplicatorStandard.class",
+      "constant": "getSessionId"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinPreProcessorStandard.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTargetContext.class",
+      "constant": "sessionId"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTargetContext.class",
+      "constant": "getSessionId"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTransformer.class",
+      "constant": "sessionId"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTransformer.class",
+      "constant": "([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTransformer.class",
+      "constant": "java/lang/reflect/Constructor"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTransformer.class",
+      "constant": "Ljava/lang/reflect/Constructor<+Lorg/spongepowered/asm/mixin/transformer/ext/IHotSwap;>;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTransformer.class",
+      "constant": "Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTransformer.class",
+      "constant": "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTransformer.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/MixinTransformer.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/TargetClassContext.class",
+      "constant": "sessionId"
+    },
+    {
+      "class": "org/spongepowered/asm/mixin/transformer/TargetClassContext.class",
+      "constant": "getSessionId"
+    },
+    {
+      "class": "org/spongepowered/asm/service/IClassProvider.class",
+      "constant": "()[Ljava/net/URL;"
+    },
+    {
+      "class": "org/spongepowered/asm/util/Annotations.class",
+      "constant": "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/util/Annotations.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "org/spongepowered/asm/util/Bytecode.class",
+      "constant": "()[Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/util/Bytecode.class",
+      "constant": "[Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/util/Bytecode.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "org/spongepowered/asm/util/Bytecode.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/util/SignaturePrinter.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/AnnotatedMixinElementHandlerOverwrite.class",
+      "constant": "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/AnnotatedMixinElementHandlerOverwrite.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/AnnotatedMixinElementHandlerOverwrite.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/AnnotatedMixins.class",
+      "constant": "getSessionId"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/mapping/common/MappingWriter.class",
+      "constant": "()Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/mapping/common/MappingWriter.class",
+      "constant": "(Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/Mappings$MappingConflictException.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/ObfuscationType.class",
+      "constant": "([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/ObfuscationType.class",
+      "constant": "java/lang/reflect/Constructor"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/ObfuscationType.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/ObfuscationType.class",
+      "constant": "Ljava/lang/reflect/Constructor<+Lorg/spongepowered/tools/obfuscation/ObfuscationEnvironment;>;"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/ObfuscationType.class",
+      "constant": "Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/ReferenceManager$ReferenceConflictException.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/ReferenceManager.class",
+      "constant": "()Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/ReferenceManager.class",
+      "constant": "(Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/TargetMap.class",
+      "constant": "sessionId"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/TargetMap.class",
+      "constant": "getSessionId"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/TargetMap.class",
+      "constant": "getSessionFile"
+    },
+    {
+      "class": "org/spongepowered/tools/obfuscation/TargetMap.class",
+      "constant": "sessionFile"
+    },
+    {
+      "class": "org/spongepowered/tools/agent/MixinAgent$Transformer.class",
+      "constant": "redefineClasses"
+    },
+    {
+      "class": "org/spongepowered/tools/agent/MixinAgent.class",
+      "constant": "isRedefineClassesSupported"
+    },
+    {
+      "class": "org/spongepowered/tools/agent/MixinAgentClassLoader.class",
+      "constant": "defineClass"
+    },
+    {
+      "class": "org/spongepowered/asm/bridge/RemapperAdapterFML.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/bridge/RemapperAdapterFML.class",
+      "constant": "(Lorg/objectweb/asm/commons/Remapper;Ljava/lang/reflect/Method;)V"
+    },
+    {
+      "class": "org/spongepowered/asm/bridge/RemapperAdapterFML.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "org/spongepowered/asm/bridge/RemapperAdapterFML.class",
+      "constant": "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/bridge/RemapperAdapterFML.class",
+      "constant": "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/bridge/RemapperAdapterFML.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "org/spongepowered/asm/bridge/RemapperAdapterFML.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentFML.class",
+      "constant": "(Lorg/spongepowered/asm/launch/platform/MixinPlatformManager;Ljava/net/URI;)V"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentFML.class",
+      "constant": "Ljava/net/URI;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentFML.class",
+      "constant": "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentFML.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentFML.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentFML.class",
+      "constant": "java/lang/reflect/InvocationTargetException"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentFML.class",
+      "constant": "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentFML.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "org/spongepowered/asm/launch/platform/MixinPlatformAgentFML.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/LaunchClassLoaderUtil.class",
+      "constant": "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/LaunchClassLoaderUtil.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/LaunchClassLoaderUtil.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper.class",
+      "constant": "()[Ljava/net/URL;"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper.class",
+      "constant": "java/net/URL"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper.class",
+      "constant": "[Ljava/net/URL;"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper.class",
+      "constant": "java/net/URLClassLoader"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper.class",
+      "constant": "Ljava/net/URLClassLoader;"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper.class",
+      "constant": "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/ClassVisitor.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/ClassWriter.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/FieldVisitor.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Frame.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/MethodVisitor.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/MethodWriter.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "(Ljava/lang/reflect/Constructor;)Lorg/spongepowered/asm/lib/Type;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "(Ljava/lang/reflect/Constructor;)Ljava/lang/String;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "Ljava/lang/reflect/Constructor<*>;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "(Ljava/lang/reflect/Method;)Lorg/spongepowered/asm/lib/Type;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "(Ljava/lang/reflect/Method;)Ljava/lang/String;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "(Ljava/lang/reflect/Method;)[Lorg/spongepowered/asm/lib/Type;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "java/lang/reflect/Constructor"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "(Ljava/lang/reflect/Constructor<*>;)Lorg/spongepowered/asm/lib/Type;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/Type.class",
+      "constant": "(Ljava/lang/reflect/Constructor<*>;)Ljava/lang/String;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/tree/ClassNode.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/tree/FieldNode.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/tree/MethodNode.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/tree/analysis/Frame.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/tree/analysis/SimpleVerifier.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/util/CheckMethodAdapter$1.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/util/CheckMethodAdapter.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/util/CheckMethodAdapter.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/util/CheckMethodAdapter.class",
+      "constant": "()Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/util/CheckMethodAdapter.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/util/CheckMethodAdapter.class",
+      "constant": "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "org/spongepowered/asm/lib/util/Printer.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/AccessClassLoader.class",
+      "constant": "defineClassMethod"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/AccessClassLoader.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/AccessClassLoader.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/AccessClassLoader.class",
+      "constant": "defineClass"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/AccessClassLoader.class",
+      "constant": "getDefineClassMethod"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/AccessClassLoader.class",
+      "constant": "()Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/AccessClassLoader.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/AccessClassLoader.class",
+      "constant": "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/ConstructorAccess.class",
+      "constant": "java/lang/reflect/Modifier"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/ConstructorAccess.class",
+      "constant": "([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/ConstructorAccess.class",
+      "constant": "java/lang/reflect/Constructor"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/ConstructorAccess.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/ConstructorAccess.class",
+      "constant": "Ljava/lang/reflect/Constructor<TT;>;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/ConstructorAccess.class",
+      "constant": "Ljava/lang/reflect/Constructor;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "[Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "(Ljava/lang/reflect/Field;)I"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "java/lang/reflect/Field"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "()[Ljava/lang/reflect/Field;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "([Ljava/lang/reflect/Field;)V"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "java/lang/reflect/Modifier"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "Ljava/util/ArrayList<Ljava/lang/reflect/Field;>;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "(Lcom/esotericsoftware/asm/ClassWriter;Ljava/lang/String;Ljava/util/ArrayList<Ljava/lang/reflect/Field;>;)V"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/FieldAccess.class",
+      "constant": "(Lcom/esotericsoftware/asm/ClassWriter;Ljava/lang/String;Ljava/util/ArrayList<Ljava/lang/reflect/Field;>;Lcom/esotericsoftware/asm/Type;)V"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/MethodAccess.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/MethodAccess.class",
+      "constant": "java/lang/reflect/Modifier"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/MethodAccess.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/MethodAccess.class",
+      "constant": "Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/MethodAccess.class",
+      "constant": "Ljava/util/ArrayList<Ljava/lang/reflect/Method;>;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/MethodAccess.class",
+      "constant": "()[Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/MethodAccess.class",
+      "constant": "[Ljava/lang/reflect/Method;"
+    },
+    {
+      "class": "com/esotericsoftware/reflectasm/MethodAccess.class",
+      "constant": "(Ljava/lang/Class;Ljava/util/ArrayList<Ljava/lang/reflect/Method;>;)V"
+    },
+    {
+      "class": "com/esotericsoftware/asm/ClassVisitor.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/asm/ClassWriter.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/asm/FieldVisitor.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/asm/Frame.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/asm/MethodVisitor.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/asm/MethodWriter.class",
+      "constant": "java/lang/RuntimeException"
+    },
+    {
+      "class": "com/esotericsoftware/asm/Type.class",
+      "constant": "(Ljava/lang/reflect/Constructor;)Lcom/esotericsoftware/asm/Type;"
+    },
+    {
+      "class": "com/esotericsoftware/asm/Type.class",
+      "constant": "(Ljava/lang/reflect/Constructor;)Ljava/lang/String;"
+    },
+    {
+      "class": "com/esotericsoftware/asm/Type.class",
+      "constant": "(Ljava/lang/reflect/Method;)Lcom/esotericsoftware/asm/Type;"
+    },
+    {
+      "class": "com/esotericsoftware/asm/Type.class",
+      "constant": "(Ljava/lang/reflect/Method;)Ljava/lang/String;"
+    },
+    {
+      "class": "com/esotericsoftware/asm/Type.class",
+      "constant": "(Ljava/lang/reflect/Method;)[Lcom/esotericsoftware/asm/Type;"
+    },
+    {
+      "class": "com/esotericsoftware/asm/Type.class",
+      "constant": "java/lang/reflect/Method"
+    },
+    {
+      "class": "com/esotericsoftware/asm/Type.class",
+      "constant": "java/lang/reflect/Constructor"
+    }
+  ],
+  "parse_errors": []
+}

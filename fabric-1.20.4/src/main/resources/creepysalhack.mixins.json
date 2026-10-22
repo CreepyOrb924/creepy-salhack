@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "me.ionar.salhack.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": ["EntityMixin", "PlayerMixin", "ClientPlayerMixin", "LightmapMixin", "WorldMixin"],
+  "injectors": {"defaultRequire": 1}
+}

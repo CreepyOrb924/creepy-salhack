@@ -1,3 +1,11 @@
+## Community Fabric 1.20.4 modernization
+
+An independently authored **Minecraft 1.20.4 / Fabric / Java 17** port is available under [fabric-1.20.4](fabric-1.20.4). [Download the community build](https://github.com/bengonzalesdr/creepy-salhack/releases) and follow its [installation instructions](fabric-1.20.4/README.md). The menu opens with **Left Arrow**.
+
+This preserves the legacy project below and does not imply an official release or endorsement by the original authors. Full historical feature parity is incomplete; the new project's audit, attribution and test scope are included. The community port is being proposed upstream for review.
+
+---
+
 [![Sal Hack logo](/src/main/resources/assets/salhack/imgs/SalHackWatermark.png)](https://discord.gg/B8Tx5HYYBm)
 
 [![Gradle Build](https://github.com/CreepyOrb924/creepy-salhack/workflows/Gradle%20Build/badge.svg?branch=master)](https://github.com/ionar2/salhack/actions)

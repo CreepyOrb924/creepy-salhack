@@ -1,0 +1,1684 @@
+[
+  {
+    "class": "AimbotModule",
+    "name": "Aimbot",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AimbotModule.java"
+  },
+  {
+    "class": "AntiBots",
+    "name": "AntiBots",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AntiBots.java"
+  },
+  {
+    "class": "AntiCityBossModule",
+    "name": "AntiCityBoss",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "TrapCheck"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AntiCityBossModule.java"
+  },
+  {
+    "class": "Auto32kModule",
+    "name": "Auto32k",
+    "category": "COMBAT",
+    "status": "Excluded",
+    "note": "Obsolete illegal-item exploit excluded.",
+    "original_settings": [
+      "Mode",
+      "Automatic",
+      "Delay",
+      "ThrowReverted",
+      "Toggles"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/Auto32kModule.java"
+  },
+  {
+    "class": "AutoArmorModule",
+    "name": "AutoArmor",
+    "category": "COMBAT",
+    "status": "Partial equivalent",
+    "note": "AutoArmor",
+    "original_settings": [
+      "Delay",
+      "Curse",
+      "Elytra",
+      "ElytraReplace"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AutoArmorModule.java"
+  },
+  {
+    "class": "AutoCityModule",
+    "name": "AutoCity",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AutoCityModule.java"
+  },
+  {
+    "class": "AutoCrystalModule",
+    "name": "AutoCrystal",
+    "category": "COMBAT",
+    "status": "Partial equivalent",
+    "note": "AutoCrystal",
+    "original_settings": [
+      "Mode",
+      "PlaceMode",
+      "DestroyMode",
+      "Ticks",
+      "DestroyDistance",
+      "PlaceDistance",
+      "WallsRange",
+      "MinDMG",
+      "MaxSelfDMG",
+      "FacePlace",
+      "NoSuicide",
+      "PauseWhileEating",
+      "AntiWeakness",
+      "GhostHand",
+      "GhostHandWeakness",
+      "ChatMsgs",
+      "Players",
+      "Hostile",
+      "Animals",
+      "Tamed",
+      "ResetRotationNoTarget",
+      "Multiplace",
+      "OnlyPlaceWithCrystal ",
+      "PlaceObsidianIfNoValidSpots ",
+      "MinHealthPause",
+      "RequiredHealth",
+      "AutoMultiplace",
+      "HealthBelowAutoMultiplace",
+      "PauseIfHittingBlock",
+      "Render",
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AutoCrystalModule.java"
+  },
+  {
+    "class": "AutoCrystalRewrite",
+    "name": "AutoCrystalRewrite",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "BreakMode",
+      "PlaceMode",
+      "PlaceRadius",
+      "BreakRadius",
+      "WallsRange",
+      "MultiPlace",
+      "Ticks",
+      "MinDMG",
+      "MaxSelfDMG",
+      "FacePlace",
+      "AutoSwitch",
+      "PauseIfHittingBlock",
+      "PauseWhileEating",
+      "NoSuicide",
+      "AntiWeakness",
+      "Render",
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AutoCrystalRewrite.java"
+  },
+  {
+    "class": "AutoTotemModule",
+    "name": "AutoTotem",
+    "category": "COMBAT",
+    "status": "Implemented equivalent",
+    "note": "AutoTotem",
+    "original_settings": [
+      "Health",
+      "Mode",
+      "Fallback",
+      "FallDistance",
+      "TotemOnElytra",
+      "SwordGap",
+      "StrGap",
+      "HotbarFirst"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AutoTotemModule.java"
+  },
+  {
+    "class": "AutoTrap",
+    "name": "AutoTrap",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "toggleMode",
+      "range",
+      "blockPerTick",
+      "rotate",
+      "announceUsage",
+      "EChests",
+      "Mode"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AutoTrap.java"
+  },
+  {
+    "class": "AutoTrapFeet",
+    "name": "AutoTrapFeet",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Distance",
+      "rotate",
+      "BlocksPerTick",
+      "Toggles"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/AutoTrapFeet.java"
+  },
+  {
+    "class": "BowSpamModule",
+    "name": "BowSpam",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/combat/BowSpamModule.java"
+  },
+  {
+    "class": "CriticalsModule",
+    "name": "Criticals",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/CriticalsModule.java"
+  },
+  {
+    "class": "HoleFillerModule",
+    "name": "HoleFiller",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "TogglesOff",
+      "MaxHoles",
+      "Radius",
+      "Visualize",
+      "ObsidianRed",
+      "ObsidianGreen",
+      "ObsidianBlue",
+      "ObsidianAlpha",
+      "HoleModed"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/HoleFillerModule.java"
+  },
+  {
+    "class": "KillAuraModule",
+    "name": "KillAura",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "Distance",
+      "Hit Delay",
+      "TPSSync",
+      "Players",
+      "Monsters",
+      "Neutrals",
+      "Animals",
+      "Tamed",
+      "Projectile",
+      "SwordOnly",
+      "PauseIfCrystal",
+      "PauseIfEating",
+      "AutoSwitch",
+      "Ticks",
+      "Iterations",
+      "32kOnly"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/KillAuraModule.java"
+  },
+  {
+    "class": "MiddleClickPearlModule",
+    "name": "MiddleClickPearl",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "MiddleClickFriend"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/MiddleClickPearlModule.java"
+  },
+  {
+    "class": "OldAutoCrystalRewrite",
+    "name": "OldAutoCrystalRewrite",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "BreakMode",
+      "PlaceRadius",
+      "BreakRadius",
+      "WallsRange",
+      "MultiPlace",
+      "Ticks",
+      "MinDMG",
+      "MaxSelfDMG",
+      "FacePlace",
+      "AutoSwitch",
+      "PauseIfHittingBlock",
+      "PauseWhileEating",
+      "NoSuicide",
+      "AntiWeakness",
+      "Render",
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/OldAutoCrystalRewrite.java"
+  },
+  {
+    "class": "SelfTrapModule",
+    "name": "SelfTrap",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "HoleCheck",
+      "Toggles"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/SelfTrapModule.java"
+  },
+  {
+    "class": "SurroundModule",
+    "name": "Surround",
+    "category": "COMBAT",
+    "status": "Partial equivalent",
+    "note": "Surround",
+    "original_settings": [
+      "Toggles",
+      "ToggleOffGround",
+      "Center",
+      "Rotate",
+      "BlocksPerTick",
+      "ActivateOnlyOnShift"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/SurroundModule.java"
+  },
+  {
+    "class": "VelocityModule",
+    "name": "Velocity",
+    "category": "COMBAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Horizontal",
+      "Veritcal",
+      "Explosions",
+      "Bobbers",
+      "NoPush"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/combat/VelocityModule.java"
+  },
+  {
+    "class": "CrashExploitModule",
+    "name": "CrashExploit",
+    "category": "EXPLOIT",
+    "status": "Excluded",
+    "note": "Packet flooding/server crash functionality excluded.",
+    "original_settings": [
+      "Mode"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/CrashExploitModule.java"
+  },
+  {
+    "class": "EntityDesyncModule",
+    "name": "EntityDesync",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/EntityDesyncModule.java"
+  },
+  {
+    "class": "GhostModule",
+    "name": "Ghost",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/GhostModule.java"
+  },
+  {
+    "class": "LiquidInteractModule",
+    "name": "LiquidInteract",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/LiquidInteractModule.java"
+  },
+  {
+    "class": "MountBypassModule",
+    "name": "MountBypass",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/MountBypassModule.java"
+  },
+  {
+    "class": "NoInteractModule",
+    "name": "NoInteract",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "ContainerOnly"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/NoInteractModule.java"
+  },
+  {
+    "class": "NoMiningTrace",
+    "name": "NoMiningTrace",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Pickaxe"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/NoMiningTrace.java"
+  },
+  {
+    "class": "NewChunksModule",
+    "name": "NewChunks",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Render"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/NewChunksModule.java"
+  },
+  {
+    "class": "PacketCancellerModule",
+    "name": "PacketCanceller",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Input",
+      "Position",
+      "PositionRotation",
+      "Rotation",
+      "PlayerAbilities",
+      "PlayerDigging",
+      "PlayerTryUseItem",
+      "PlayerTryUseItemOnBlock",
+      "EntityAction",
+      "UseEntity",
+      "VehicleMove"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/PacketCancellerModule.java"
+  },
+  {
+    "class": "PacketFlyModule",
+    "name": "PacketFly",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "AntiKick",
+      "Type"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/PacketFlyModule.java"
+  },
+  {
+    "class": "PortalGodModeModule",
+    "name": "PortalGodMode",
+    "category": "EXPLOIT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/exploit/PortalGodModeModule.java"
+  },
+  {
+    "class": "AntiAFKModule",
+    "name": "AntiAFK",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/misc/AntiAFKModule.java"
+  },
+  {
+    "class": "AutoDuperModule",
+    "name": "AutoDuper",
+    "category": "MISC",
+    "status": "Excluded",
+    "note": "Obsolete duplication exploit excluded.",
+    "original_settings": [
+      "ShulkerOnly",
+      "Ground",
+      "Delay"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/AutoDuperModule.java"
+  },
+  {
+    "class": "AutoEatModule",
+    "name": "AutoEat",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "HealthToEatAt",
+      "Hunger"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/AutoEatModule.java"
+  },
+  {
+    "class": "AutoMendArmorModule",
+    "name": "AutoMendArmor",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Delay",
+      "Pct",
+      "GhostHand"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/AutoMendArmorModule.java"
+  },
+  {
+    "class": "AutoMountModule",
+    "name": "AutoMount",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Boats",
+      "Horses",
+      "SkeletonHorses",
+      "Donkeys",
+      "Pigs",
+      "Llamas",
+      "Mules",
+      "Range",
+      "Delay"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/AutoMountModule.java"
+  },
+  {
+    "class": "AutoReconnectModule",
+    "name": "AutoReconnect",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Delay"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/AutoReconnectModule.java"
+  },
+  {
+    "class": "AutoRespawnModule",
+    "name": "AutoRespawn",
+    "category": "MISC",
+    "status": "Implemented equivalent",
+    "note": "AutoRespawn",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/misc/AutoRespawnModule.java"
+  },
+  {
+    "class": "AutoSignModule",
+    "name": "AutoSign",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Line1",
+      "Line2",
+      "Line3",
+      "Line4",
+      "AutoComplete"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/AutoSignModule.java"
+  },
+  {
+    "class": "AutoTameModule",
+    "name": "AutoTame",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Delay"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/AutoTameModule.java"
+  },
+  {
+    "class": "BuildHeightModule",
+    "name": "BuildHeight",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/misc/BuildHeightModule.java"
+  },
+  {
+    "class": "ChatNotifierModule",
+    "name": "ChatNotifier",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/misc/ChatNotifierModule.java"
+  },
+  {
+    "class": "ChestStealerModule",
+    "name": "ChestStealer",
+    "category": "MISC",
+    "status": "Partial equivalent",
+    "note": "ChestStealer",
+    "original_settings": [
+      "Mode",
+      "Delay",
+      "DepositShulkers",
+      "EntityChests",
+      "Shulkers"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/ChestStealerModule.java"
+  },
+  {
+    "class": "ChestSwapModule",
+    "name": "ChestSwap",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "PreferElytra",
+      "Curse"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/ChestSwapModule.java"
+  },
+  {
+    "class": "DiscordRPCModule",
+    "name": "DiscordRPC",
+    "category": "MISC",
+    "status": "Excluded",
+    "note": "Native RPC and external integration omitted.",
+    "original_settings": [
+      "Username",
+      "ServerIP",
+      "DetailsAddon",
+      "Ionar",
+      "Speed",
+      "Movement",
+      "Crystalling",
+      "Health",
+      "GitHub"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/DiscordRPCModule.java"
+  },
+  {
+    "class": "FakePlayer",
+    "name": "FakePlayer",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Name"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/FakePlayer.java"
+  },
+  {
+    "class": "FriendsModule",
+    "name": "Friends",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/misc/FriendsModule.java"
+  },
+  {
+    "class": "GlobalLocationModule",
+    "name": "GlobalLocation",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Thunder",
+      "Slimes",
+      "Wither",
+      "End Portal",
+      "Ender Dragon",
+      "Donkey",
+      "Llama",
+      "Mule"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/GlobalLocationModule.java"
+  },
+  {
+    "class": "HotbarCacheModule",
+    "name": "HotbarCache",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "Delay"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/HotbarCacheModule.java"
+  },
+  {
+    "class": "ManualDupeModule",
+    "name": "ManualDupe",
+    "category": "MISC",
+    "status": "Excluded",
+    "note": "Obsolete duplication exploit excluded.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/misc/ManualDupeModule.java"
+  },
+  {
+    "class": "MiddleClickFriendsModule",
+    "name": "MiddleClick",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/misc/MiddleClickFriendsModule.java"
+  },
+  {
+    "class": "StopWatchModule",
+    "name": "Stopwatch",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/misc/StopWatchModule.java"
+  },
+  {
+    "class": "TotemPopNotifierModule",
+    "name": "TotemPopNotifier",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/misc/TotemPopNotifierModule.java"
+  },
+  {
+    "class": "VisualRangeModule",
+    "name": "VisualRange",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "Friends",
+      "Enter",
+      "Leave"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/VisualRangeModule.java"
+  },
+  {
+    "class": "XCarryModule",
+    "name": "XCarry",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "ForceCancel"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/misc/XCarryModule.java"
+  },
+  {
+    "class": "AntiLevitationModule",
+    "name": "AntiLevitation",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/movement/AntiLevitationModule.java"
+  },
+  {
+    "class": "AutoWalkModule",
+    "name": "AutoWalk",
+    "category": "MOVEMENT",
+    "status": "Implemented equivalent",
+    "note": "AutoWalk",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/movement/AutoWalkModule.java"
+  },
+  {
+    "class": "BlinkModule",
+    "name": "Blink",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Visualize",
+      "EntityBlink"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/BlinkModule.java"
+  },
+  {
+    "class": "ElytraFlyModule",
+    "name": "ElytraFly",
+    "category": "MOVEMENT",
+    "status": "Partial equivalent",
+    "note": "ElytraFly",
+    "original_settings": [
+      "Mode",
+      "Speed",
+      "DownSpeed",
+      "GlideSpeed",
+      "UpSpeed",
+      "Accelerate",
+      "Timer",
+      "RotationPitch",
+      "CancelInWater",
+      "CancelAtHeight",
+      "InstantFly",
+      "EquipElytra",
+      "PitchSpoof"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/ElytraFlyModule.java"
+  },
+  {
+    "class": "EntityControlModule",
+    "name": "EntityControl",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/movement/EntityControlModule.java"
+  },
+  {
+    "class": "EntitySpeedModule",
+    "name": "EntitySpeed",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Speed"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/EntitySpeedModule.java"
+  },
+  {
+    "class": "FlightModule",
+    "name": "Flight",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "Speed",
+      "Glide",
+      "GlideWhileMoving",
+      "GlideSpeed",
+      "Elytra",
+      "AntiFallDmg",
+      "AntiKick"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/FlightModule.java"
+  },
+  {
+    "class": "GlideModule",
+    "name": "GlideModule",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/movement/GlideModule.java"
+  },
+  {
+    "class": "HorseJump",
+    "name": "HorseJump",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/movement/HorseJump.java"
+  },
+  {
+    "class": "JesusModule",
+    "name": "Jesus",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "Offset",
+      "JumpHeight"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/JesusModule.java"
+  },
+  {
+    "class": "NoFallModule",
+    "name": "NoFall",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "NoVoid"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/NoFallModule.java"
+  },
+  {
+    "class": "NoRotateModule",
+    "name": "NoRotate",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/movement/NoRotateModule.java"
+  },
+  {
+    "class": "NoSlowModule",
+    "name": "NoSlow",
+    "category": "MOVEMENT",
+    "status": "Implemented equivalent",
+    "note": "NoSlow",
+    "original_settings": [
+      "InventoryMove",
+      "OnlyOnCustom",
+      "Items",
+      "Ice",
+      "NCPStrict"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/NoSlowModule.java"
+  },
+  {
+    "class": "ParkourJump",
+    "name": "ParkourJump",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/movement/ParkourJump.java"
+  },
+  {
+    "class": "SafeWalkModule",
+    "name": "SafeWalk",
+    "category": "MOVEMENT",
+    "status": "Implemented equivalent",
+    "note": "SafeWalk",
+    "original_settings": [
+      "Height"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/SafeWalkModule.java"
+  },
+  {
+    "class": "SneakModule",
+    "name": "Sneak",
+    "category": "MOVEMENT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/SneakModule.java"
+  },
+  {
+    "class": "SpeedModule",
+    "name": "Speed",
+    "category": "MOVEMENT",
+    "status": "Partial equivalent",
+    "note": "Speed",
+    "original_settings": [
+      "Mode",
+      "UseTimer",
+      "AutoSprint",
+      "SpeedInWater",
+      "AutoJump",
+      "Strict"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/SpeedModule.java"
+  },
+  {
+    "class": "SprintModule",
+    "name": "Sprint",
+    "category": "MOVEMENT",
+    "status": "Implemented equivalent",
+    "note": "Sprint",
+    "original_settings": [
+      "Mode"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/SprintModule.java"
+  },
+  {
+    "class": "StepModule",
+    "name": "Step",
+    "category": "MOVEMENT",
+    "status": "Partial equivalent",
+    "note": "Step",
+    "original_settings": [
+      "Mode",
+      "EntityStep",
+      "Height"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/StepModule.java"
+  },
+  {
+    "class": "YawModule",
+    "name": "Yaw",
+    "category": "MOVEMENT",
+    "status": "Implemented equivalent",
+    "note": "Yaw",
+    "original_settings": [
+      "Yaw",
+      "Pitch",
+      "Cardinal"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/movement/YawModule.java"
+  },
+  {
+    "class": "AntiFog",
+    "name": "AntiFog",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/render/AntiFog.java"
+  },
+  {
+    "class": "BlockHighlightModule",
+    "name": "BlockHighlight",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "HighlightModes",
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/BlockHighlightModule.java"
+  },
+  {
+    "class": "BreakHighlightModule",
+    "name": "BreakHighlight",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "HighlightModes",
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha",
+      "Debug"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/BreakHighlightModule.java"
+  },
+  {
+    "class": "BrightnessModule",
+    "name": "Brightness",
+    "category": "RENDER",
+    "status": "Implemented equivalent",
+    "note": "Brightness",
+    "original_settings": [
+      "Mode",
+      "Effects"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/BrightnessModule.java"
+  },
+  {
+    "class": "CityESPModule",
+    "name": "CityESP",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "ObsidianRed",
+      "ObsidianGreen",
+      "ObsidianBlue",
+      "ObsidianAlpha"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/CityESPModule.java"
+  },
+  {
+    "class": "EntityESPModule",
+    "name": "EntityESP",
+    "category": "RENDER",
+    "status": "Partial equivalent",
+    "note": "EntityESP",
+    "original_settings": [
+      "Mode",
+      "Players",
+      "Monsters",
+      "Animals",
+      "Vehicles",
+      "Others",
+      "Items",
+      "Tamed"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/EntityESPModule.java"
+  },
+  {
+    "class": "FreecamModule",
+    "name": "Freecam",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Speed",
+      "Cancel Packets",
+      "Mode"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/FreecamModule.java"
+  },
+  {
+    "class": "HoleESPModule",
+    "name": "HoleESP",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "Radius",
+      "IgnoreOwnHole",
+      "ObsidianRed",
+      "ObsidianGreen",
+      "ObsidianBlue",
+      "ObsidianAlpha",
+      "BedrockRed",
+      "BedrockGreen",
+      "BedrockBlue",
+      "BedrockAlpha"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/HoleESPModule.java"
+  },
+  {
+    "class": "MobOwnerModule",
+    "name": "MobOwnerModule",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/render/MobOwnerModule.java"
+  },
+  {
+    "class": "NametagsModule",
+    "name": "NameTags",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Armor",
+      "Durability",
+      "ItemName",
+      "Health",
+      "Invisibles",
+      "EntityID",
+      "GameMode",
+      "Ping"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/NametagsModule.java"
+  },
+  {
+    "class": "NoRenderModule",
+    "name": "NoRender",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "NoItemsMode",
+      "Fire",
+      "HurtCamera",
+      "PumpkinOverlay",
+      "Blindness",
+      "TotemAnimation",
+      "Skylight",
+      "SignText",
+      "NoArmor",
+      "NoArmorPlayers",
+      "Maps",
+      "BossHealth",
+      "EnchantingTable",
+      "Beacon"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/NoRenderModule.java"
+  },
+  {
+    "class": "ShulkerPreviewModule",
+    "name": "ShulkerPreview",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "MiddleClick",
+      "EnderChest",
+      "Mode"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/ShulkerPreviewModule.java"
+  },
+  {
+    "class": "SkeletonModule",
+    "name": "Skeleton",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/render/SkeletonModule.java"
+  },
+  {
+    "class": "SmallShield",
+    "name": "SmallShield",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "MainHand",
+      "OffHand",
+      "TallSword"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/SmallShield.java"
+  },
+  {
+    "class": "StorageESPModule",
+    "name": "StorageESP",
+    "category": "RENDER",
+    "status": "Partial equivalent",
+    "note": "StorageESP",
+    "original_settings": [
+      "EnderChests",
+      "Chests",
+      "Shulkers"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/StorageESPModule.java"
+  },
+  {
+    "class": "TracersModule",
+    "name": "Tracers",
+    "category": "RENDER",
+    "status": "Implemented equivalent",
+    "note": "Tracers",
+    "original_settings": [
+      "Players",
+      "Friends",
+      "Invisibles",
+      "Monsters",
+      "Animals",
+      "Vehicles",
+      "Items",
+      "Others"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/TracersModule.java"
+  },
+  {
+    "class": "TrajectoriesModule",
+    "name": "Trajectories",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Width",
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/TrajectoriesModule.java"
+  },
+  {
+    "class": "ViewClipModule",
+    "name": "ViewClip",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/render/ViewClipModule.java"
+  },
+  {
+    "class": "VoidESPModule",
+    "name": "VoidESP",
+    "category": "RENDER",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Radius"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/VoidESPModule.java"
+  },
+  {
+    "class": "WaypointsModule",
+    "name": "Waypoints",
+    "category": "RENDER",
+    "status": "Partial equivalent",
+    "note": "Waypoints",
+    "original_settings": [
+      "Normal",
+      "LogoutSpots",
+      "DeathPoints",
+      "CoordTPExploit",
+      "Tracers",
+      "RemoveDistance"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/render/WaypointsModule.java"
+  },
+  {
+    "class": "ChestModule",
+    "name": "Chest",
+    "category": "UI",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/ui/ChestModule.java"
+  },
+  {
+    "class": "DupeModule",
+    "name": "Dupe",
+    "category": "UI",
+    "status": "Excluded",
+    "note": "Legacy dupe GUI omitted.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/ui/DupeModule.java"
+  },
+  {
+    "class": "ColorsModule",
+    "name": "Colors",
+    "category": "UI",
+    "status": "Implemented equivalent",
+    "note": "Colors",
+    "original_settings": [
+      "Red",
+      "Green",
+      "Blue",
+      "Alpha",
+      "ImageRed",
+      "ImageGreen",
+      "ImageBlue",
+      "ImageAlpha"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/ui/ColorsModule.java"
+  },
+  {
+    "class": "ConsoleModule",
+    "name": "Console",
+    "category": "UI",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/ui/ConsoleModule.java"
+  },
+  {
+    "class": "ClickGuiModule",
+    "name": "ClickGui",
+    "category": "UI",
+    "status": "Implemented equivalent",
+    "note": "ClickGUI",
+    "original_settings": [
+      "AllowOverflow",
+      "Watermark",
+      "HoverDescriptions",
+      "Snowing"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/ui/ClickGuiModule.java"
+  },
+  {
+    "class": "HudEditorModule",
+    "name": "HudEditor",
+    "category": "UI",
+    "status": "Implemented equivalent",
+    "note": "HUD editor",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/ui/HudEditorModule.java"
+  },
+  {
+    "class": "HudModule",
+    "name": "HUD",
+    "category": "UI",
+    "status": "Implemented equivalent",
+    "note": "HUD",
+    "original_settings": [
+      "ExtraTab",
+      "CustomFOV",
+      "FOV",
+      "NoHurtCam",
+      "NoBob",
+      "CustomFont",
+      "Rainbow"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/ui/HudModule.java"
+  },
+  {
+    "class": "KeybindsModule",
+    "name": "Keybinds",
+    "category": "UI",
+    "status": "Implemented equivalent",
+    "note": "Keybind system",
+    "original_settings": [
+      "StrictShift",
+      "StrictCtrl",
+      "StrictAlt"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/ui/KeybindsModule.java"
+  },
+  {
+    "class": "ReliantChatModule",
+    "name": "ReliantChat",
+    "category": "UI",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/ui/ReliantChatModule.java"
+  },
+  {
+    "class": "AutoBuilderModule",
+    "name": "AutoBuilder",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "BuildingMode",
+      "BlocksPerTick",
+      "Delay",
+      "Visualize"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/AutoBuilderModule.java"
+  },
+  {
+    "class": "AutoHighwayBuilder",
+    "name": "AutoHighwayBuilder",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "BuildingMode",
+      "BlocksPerTick",
+      "Delay",
+      "Visualize"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/AutoHighwayBuilder.java"
+  },
+  {
+    "class": "AutoNameTagModule",
+    "name": "AutoNameTag",
+    "category": "MISC",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Radius",
+      "ReplaceOldNames",
+      "AutoSwitch",
+      "WithersOnly",
+      "Delay"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/AutoNameTagModule.java"
+  },
+  {
+    "class": "AutoToolModule",
+    "name": "AutoTool",
+    "category": "WORLD",
+    "status": "Partial equivalent",
+    "note": "AutoTool",
+    "original_settings": [
+      "Silent",
+      "GoBack"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/AutoToolModule.java"
+  },
+  {
+    "class": "AutoTunnelModule",
+    "name": "AutoTunnel",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "MiningMode",
+      "Visualize",
+      "PauseAutoWalk"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/AutoTunnelModule.java"
+  },
+  {
+    "class": "AutoWitherModule",
+    "name": "AutoWither",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/world/AutoWitherModule.java"
+  },
+  {
+    "class": "CoordsSpooferModule",
+    "name": "CoordSpoofer",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/world/CoordsSpooferModule.java"
+  },
+  {
+    "class": "EnderChestFarmer",
+    "name": "EnderChestFarmer",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Radius",
+      "Delay"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/EnderChestFarmer.java"
+  },
+  {
+    "class": "FastPlaceModule",
+    "name": "FastPlace",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "XP",
+      "Crystals"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/FastPlaceModule.java"
+  },
+  {
+    "class": "NoGlitchBlocksModule",
+    "name": "NoGlitchBlocks",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Destroy",
+      "Place"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/NoGlitchBlocksModule.java"
+  },
+  {
+    "class": "NoWeatherModule",
+    "name": "NoWeather",
+    "category": "WORLD",
+    "status": "Implemented equivalent",
+    "note": "NoWeather",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/world/NoWeatherModule.java"
+  },
+  {
+    "class": "NukerModule",
+    "name": "Nuker",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "Click Select",
+      "Flatten",
+      "Rotates",
+      "Raytrace",
+      "Range"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/NukerModule.java"
+  },
+  {
+    "class": "ScaffoldModule",
+    "name": "Scaffold",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "StopMotion",
+      "Delay"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/ScaffoldModule.java"
+  },
+  {
+    "class": "SpeedyGonzales",
+    "name": "SpeedyGonzales",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "Speed",
+      "Reset",
+      "DoubleBreak",
+      "FastFall"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/SpeedyGonzales.java"
+  },
+  {
+    "class": "StashFinderModule",
+    "name": "StashFinder",
+    "category": "WORLD",
+    "status": "Partial equivalent",
+    "note": "StashFinder",
+    "original_settings": [
+      "Curve",
+      "Visualizer",
+      "Loop",
+      "ToggleStashLogger"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/StashFinderModule.java"
+  },
+  {
+    "class": "StashLoggerModule",
+    "name": "StashLogger",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "MaxCount",
+      "Chests",
+      "Shulkers",
+      "Donkeys",
+      "WriteToFile"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/StashLoggerModule.java"
+  },
+  {
+    "class": "TimerModule",
+    "name": "Timer",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Speed",
+      "Accelerate",
+      "TPSSync"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/TimerModule.java"
+  },
+  {
+    "class": "TorchAnnihilatorModule",
+    "name": "TorchAnnihilator",
+    "category": "WORLD",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Radius",
+      "RedstoneTorches"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/world/TorchAnnihilatorModule.java"
+  },
+  {
+    "class": "PrinterModule",
+    "name": "Printer",
+    "category": "SCHEMATICA",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/schematica/PrinterModule.java"
+  },
+  {
+    "class": "PrinterBypassModule",
+    "name": "PrinterBypass",
+    "category": "SCHEMATICA",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Mode",
+      "Delay"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/schematica/PrinterBypassModule.java"
+  },
+  {
+    "class": "ChatModificationsModule",
+    "name": "ChatModifications",
+    "category": "CHAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "TimeMode",
+      "AntiEZ",
+      "NoDiscord",
+      "NameHighlight",
+      "ChatLength"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/chat/ChatModificationsModule.java"
+  },
+  {
+    "class": "MessageModifierModule",
+    "name": "MessageModifier",
+    "category": "CHAT",
+    "status": "Not implemented",
+    "note": "No registered placeholder.",
+    "original_settings": [
+      "Suffix",
+      "Separator",
+      "SuffixFont",
+      "ColorChat",
+      "ColorChatMode",
+      "FancyChat",
+      "FancyChatMode",
+      "Wheelchair",
+      "TradeMark"
+    ],
+    "source": "src/main/java/me/ionar/salhack/module/chat/MessageModifierModule.java"
+  },
+  {
+    "class": "PopBobSexDupeModule",
+    "name": "PopBobSexDupe",
+    "category": "CHAT",
+    "status": "Excluded",
+    "note": "Duplication/troll behavior excluded.",
+    "original_settings": [],
+    "source": "src/main/java/me/ionar/salhack/module/chat/PopBobSexDupeModule.java"
+  }
+]

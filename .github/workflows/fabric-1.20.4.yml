@@ -1,0 +1,28 @@
+name: Fabric 1.20.4 build
+on:
+  push:
+    branches: ["fabric-1.20.4-modernization"]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: fabric-1.20.4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+      - name: Build and run unit tests
+        run: bash ./gradlew build --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CreepySalHack-fabric-1.20.4
+          path: fabric-1.20.4/build/libs/CreepySalHack-1.20.4-2.08.2-port.4-render.jar
+          if-no-files-found: error

@@ -1,0 +1,12 @@
+# Attribution and licenses
+
+- **Creepy SalHack 2.08.2**, CreepyOrb924 and contributors; original SalHack by **ionar2** and contributors. Source: https://github.com/CreepyOrb924/creepy-salhack/tree/v2.08.2 ; pinned commit `28379f14fb97c08bb06d65e8ea741328c87ccc06`. The upstream MIT notice is preserved verbatim in `LICENSE` and in the mod JAR. The upstream notice also identifies separately licensed Forge/KAMI code. None of that legacy Java code, Forge sources, KAMI sources, vendored Slick/Schematica code, fonts or native RPC libraries was copied into this rewrite.
+- `src/main/resources/assets/creepysalhack/textures/watermark.png` is the unmodified original `src/main/resources/assets/salhack/imgs/SalHackWatermark.png` from that pinned source. It is included under the repository MIT notice; no separate notice was present beside this asset. Names, categories, original settings inventory and visual conventions were used as modernization references. No official endorsement is implied.
+- All Java in this port is a fresh implementation. Distributed under the MIT terms in `LICENSE`.
+- **Fabric Loader 0.15.11**, **Fabric Loom 1.6.12** and **Yarn mappings build 3**: FabricMC, Apache-2.0 (Yarn mappings CC0-1.0). https://github.com/FabricMC/fabric-loader ; https://github.com/FabricMC/fabric-loom ; https://github.com/FabricMC/yarn
+- **Fabric API 0.97.2+1.20.4**, FabricMC, Apache-2.0: https://github.com/FabricMC/fabric . The official artifact can be installed separately; the release dependency copy retains its embedded notices.
+- **Gradle 8.6** wrapper/build tooling, Apache-2.0: https://github.com/gradle/gradle . The wrapper is generated using the official distribution; the full distribution is not included in the source ZIP.
+- **JUnit Jupiter 5.10.2**, Eclipse Public License 2.0, test-only: https://junit.org/junit5/ . Dependencies downloaded by Gradle retain their own licenses; not embedded into the client JAR.
+- **Minecraft 1.20.4**, Mojang/Microsoft, proprietary game license. No game JAR, game libraries, assets or native files are included in the source/release ZIP. Minecraft provides the built-in fonts/rendering and runtime Gson/SLF4J/JOML libraries.
+- **Eclipse Temurin Java 17** was downloaded into workspace tooling for this build. It is not included in release/source packages. https://adoptium.net/temurin/releases/
+- The unrelated supplied **Ingrosware v4.0** JAR was used only for static inspection. It and its code/assets are not included in the port or distribution packages.

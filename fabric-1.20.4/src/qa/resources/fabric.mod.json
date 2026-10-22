@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"salhackqa","version":"1.0.0","name":"Development-only runtime QA","environment":"client","entrypoints":{"client":["me.ionar.salhack.qa.RuntimeSmoke"]},"depends":{"creepysalhack":"*"}}
